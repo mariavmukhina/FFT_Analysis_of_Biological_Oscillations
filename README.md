@@ -1,5 +1,7 @@
 # FFT analysis of Biological Oscillations
 
+This script was specifically created to analyze the oscillations in length of bacterial chromosomes, which occur throughout cell cycle with periods between 2 and 20 minutes. The script can deal with the samples with different number of time points as eash cell has different length of cell cycle
+
 FFT.m loads data from .mat files in dataFolder, calculates FFT and generates
 outputs based on input parameters
 
@@ -29,7 +31,10 @@ outputs: [1 1 1 1 0.6 1 1 1 1 1 1 3] - vector of zeros and ones, if (outputs(i) 
 11) Continuous Wavelet Transform (CWT) for each sample in datasets (requires wavelet toolbox).
 12) plot difference spectra for pairs(n0,n) of datasets where n0 is the dataset which is being subtructed, typically WT slow growth; put no to outputs vector
 
-By Maria Mukhina for Kleckner Lab.
+By Maria Mukhina for Kleckner Lab
+
 mmukhina@fas.harvard.edu
+
 24.02.2020
+
 GNU GENERAL PUBLIC LICENSE v3
