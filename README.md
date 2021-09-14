@@ -1,6 +1,6 @@
-# FFTanalysisOfBiologicalOscillations
+# FFT analysis of Biological Oscillations
 
-FFT loads data from .mat files in dataFolder, calculates FFT and generates
+FFT.m loads data from .mat files in dataFolder, calculates FFT and generates
 outputs based on input parameters
 
 input .mat files in dataFolder; can be either num arrays arranged so column represents a
