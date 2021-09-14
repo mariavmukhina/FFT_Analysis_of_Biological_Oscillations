@@ -1,6 +1,6 @@
 # FFT analysis of Biological Oscillations
 
-This script was specifically created to analyze the oscillations in length of bacterial chromosomes, which occur throughout cell cycle with periods between 2 and 20 minutes. The script can deal with the samples with different number of time points as eash cell has different length of cell cycle
+This script was specifically created to analyze the oscillations in length of bacterial chromosomes, which occur throughout cell cycle with varyimg periods. The script can deal with the samples with different number of time points as eash cell has different length of cell cycle.
 
 <img src="https://raw.githubusercontent.com/mariavmukhina/FFT_Analysis_of_Biological_Oscillations/main/images/PSDsurf.png?raw=true">  
 
